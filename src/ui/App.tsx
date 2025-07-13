@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center">
       <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-2xl text-white text-center">
-        <h1 className="text-4xl font-bold mb-6">🎤 Roar - Voice Transcription</h1>
+        <h1 className="text-4xl font-bold mb-6">🎤 Roar - Voice Transcription hey hey hey</h1>
         <p className="text-lg mb-8 opacity-90">Speak and watch your words appear in real-time!</p>
         
         <div className="space-y-4">
