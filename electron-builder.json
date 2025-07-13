@@ -1,0 +1,30 @@
+{
+  "appId": "com.vatran.roar",
+  "productName": "Roar",
+  "files": ["dist-electron", "dist-react"],
+  "extraResources": ["dist-electron/preload.cjs", "src/assets/**"],
+  "icon": "./public/roar-logo-512.png",
+  "mac": {
+    "target": "dmg",
+    "icon": "./public/roar-logo-512.png",
+    "category": "public.app-category.productivity"
+  },
+  "linux": {
+    "target": "AppImage",
+    "category": "Utility",
+    "icon": "./public/roar-logo-512.png"
+  },
+  "win": {
+    "target": ["portable", "msi"],
+    "icon": "./public/roar-logo-512.png"
+  },
+  "dmg": {
+    "title": "Roar",
+    "icon": "./public/roar-logo-512.png",
+    "background": "./public/roar-logo-512.png",
+    "window": {
+      "width": 540,
+      "height": 380
+    }
+  }
+}
